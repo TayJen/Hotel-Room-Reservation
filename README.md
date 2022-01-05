@@ -1,4 +1,4 @@
-# Hotel-room-reservation
+# Hotel-Room-Reservation
 ## Project Description
 To attract customers, the hotel chain has added to its website the ability to book a room without prepayment. However, if the customer cancelled the booking, the company suffered losses. The hotel staff could, for example, buy groceries for the arrival of a guest or simply not have time to find another client.
 
