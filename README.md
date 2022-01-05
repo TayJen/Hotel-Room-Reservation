@@ -42,3 +42,21 @@ The hotel_train and hotel_test tables contain the same columns:
 - stays_in_week_nights - number of nights on weekdays;
 - total_nights - total number of nights;
 - total_of_special_requests - the number of special marks.
+
+### Business metrics and other data
+The main business metric for any hotel chain is its profit. The profit of the hotel is the difference between the cost of a room for all nights and the cost of service: both during the preparation of the room and during the stay of the guest.
+
+The hotel has several types of rooms. Depending on the type of room, the cost per night is assigned. There are also cleaning costs. If the client has rented a room for a long time, then they are cleaned every two days.
+
+The cost of hotel rooms:
+- category A: per night - 1,000, one-time service - 400;
+- category B: per night - 800, one-time service - 350;
+- category C: per night - 600, one-time service - 350;
+- category D: per night - 550, one-time service - 150;
+- category E: 500 per night, one-time service - 150;
+- category F: per night - 450, one-time service - 150;
+- category G: per night - 350, one-time service - 150.
+
+The hotel's pricing policy uses seasonal coefficients: in spring and autumn prices increase by 20%, in summer - by 40%.
+
+The budget for the development of the forecasting system is 400,000. At the same time, it should be taken into account that the implementation of the model should pay off in a year. Development costs should be less than the revenue that the system will bring to the company.
